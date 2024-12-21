@@ -1,0 +1,139 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+/*Background*/
+.fondoPrincipal{
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    position: relative;
+    background: url('../images/back.png') repeat-x;
+    background-attachment: fixed; /*back.png dont move*/
+}
+
+.img1{
+    max-height: 720px;
+    z-index: -1;
+}
+
+.img2 {
+    position: fixed;
+    width: 50%; 
+    bottom: 0px; left: 0px;
+    z-index: 1;
+} 
+.img3 {
+    position: fixed;
+    width: 50%;
+    bottom: 0px; right: 0px;
+    z-index: 1;
+}  
+.img4{
+    position: fixed;
+    z-index: 1;
+    top:0%;
+    left:0px;
+} 
+
+.contenidoBox{
+    display: inline;
+    position: relative; 
+    background: white;
+    top: 20px;
+    width: 800px;
+    border-radius: 15px;
+    z-index: 1;
+}
+.logo{
+     position: static;
+    /*display: inline; */
+}
+.imgLogo{
+    border-radius: 15px;
+}
+.mainContent{
+    
+    border-radius: 15px;
+    width: 40%;
+}
+
+#main {
+    margin-top: -140px;
+    width: 863px;
+    padding: 10px 20px 30px 20px;
+    border-radius: 15px 15px 15px 15px;
+    -moz-border-radius: 15px 15px 15px 15px;
+    -webkit-border: 15px 15px 15px 15px;
+    background: #fff;
+    position: relative;
+    z-index: 2;
+}
+
+a,
+a:hover {
+    outline: none;
+    color: #20BFD4;
+    text-decoration: underline;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+blockquote {
+    margin: 20px 0 20px 0;
+    padding: 10px 20px 0 20px;
+    border: 1px solid #E5E5DB;
+    background: #F5F5F1;
+}
+
+ul {
+    margin: 2px 0 17px 16px;
+}
+
+ul li {
+    list-style-type: square;
+    margin: 0 0 6px 0;
+    padding: 0 0 0 8px;
+}
+
+ol {
+    margin: 2px 0 0 24px;
+}
+
+ol li {
+    margin: 0 0 6px 0;
+}
+
+
+/* #main,header,#logo,nav,#site_content,footer {
+    margin-left: auto;
+    margin-right: auto;
+} */
+
+#articulo1{
+    background: #c4dceb;
+    width: 770px;
+    position: relative;
+    left: 10px;
+    padding: 10px 20px 0 20px;
+}
+#articulo2 {
+    background: #e09dd1;
+    width: 770px;
+    position: relative;
+    left: 10px;
+    padding: 10px 20px 0 20px;
+}
+#conciencia{
+    position: relative;
+        left: 50px;
+}
+#nosotros{
+    position: relative;
+    left: 50px;
+}
+

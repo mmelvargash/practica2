@@ -1,0 +1,132 @@
+
+nav { 
+  width: 780px;
+  height: 45px;
+  border-radius: 10px 10px 0 0;
+  -moz-border-radius: 10px 10px 0 0;
+  -webkit-border: 10px 10px 0 0;
+  background: #53C7FD;
+} 
+
+
+
+
+
+/* Configuration of menu width */
+html body ul.sf-menu ul,
+html body ul.sf-menu ul li {
+    width: 200px;
+}
+
+html body ul.sf-menu ul ul {
+    margin: 0 0 0 200px;
+}
+
+/* Framework for proper showing/hiding/positioning */
+ul.sf-menu,
+ul.sf-menu * {
+    margin: 0;
+    padding: 0;
+}
+
+ul.sf-menu {
+    display: block;
+    position: relative;
+}
+
+ul.sf-menu li {
+    display: block;
+    list-style: none;
+    float: left;
+    position: relative;
+}
+
+ul.sf-menu li:hover {
+    visibility: inherit;
+    /* fixes IE7 'sticky bug' */
+}
+
+ul.sf-menu a {
+    display: block;
+    position: relative;
+}
+
+ul.sf-menu ul {
+    position: absolute;
+    left: 0;
+    width: 150px;
+    top: auto;
+    left: -999999px;
+}
+
+ul.sf-menu ul a {
+    zoom: 1;
+    /* IE6/7 fix */
+}
+
+ul.sf-menu ul li {
+    float: left;
+    /* Must always be floated otherwise there will be a rogue 1px margin-bottom in IE6/7 */
+    width: 150px;
+}
+
+ul.sf-menu ul ul {
+    top: 0;
+    margin: 0 0 0 150px;
+}
+
+
+/* Theming the menu */
+ul#nav {
+    float: left;
+}
+
+ul#nav ul {
+    background: #53C7FD;
+    margin-top: 0;
+    padding-bottom: 15px;
+}
+
+ul#nav li a {
+    padding: 9px 25px 10px 15px;
+    font: 120%  helvetica, arial, verdana, sans;
+    color: #FFF;
+    text-shadow: 1px 1px #0BA0E5;
+    text-decoration: none;
+}
+
+ul#nav li a:hover {
+    color: #E5017D;
+    text-shadow: none;
+}
+
+/*agrega el menú de Adoptar*/
+ul.sf-menu li:hover ul,
+ul.sf-menu li:focus ul,
+ul.sf-menu li.sf-hover ul,
+ul.sf-menu ul li:hover ul,
+ul.sf-menu ul li:focus ul,
+ul.sf-menu ul li.sf-hover ul,
+ul.sf-menu ul ul li:hover ul,
+ul.sf-menu ul ul li:focus ul,
+ul.sf-menu ul ul li.sf-hover ul,
+ul.sf-menu ul ul ul li:hover ul,
+ul.sf-menu ul ul ul li:focus ul,
+ul.sf-menu ul ul ul li.sf-hover ul {
+    left: auto;
+}
+
+ul.sf-menu li:hover ul ul,
+ul.sf-menu li:focus ul ul,
+ul.sf-menu li.sf-hover ul ul,
+ul.sf-menu ul li:hover ul ul,
+ul.sf-menu ul li:focus ul ul,
+ul.sf-menu ul li.sf-hover ul ul,
+ul.sf-menu ul ul li:hover ul ul,
+ul.sf-menu ul ul li:focus ul ul,
+ul.sf-menu ul ul li.sf-hover ul ul,
+ul.sf-menu ul ul ul li:hover ul ul,
+ul.sf-menu ul ul ul li:focus ul ul,
+ul.sf-menu ul ul ul li.sf-hover ul ul {
+    left: -999999px;
+}

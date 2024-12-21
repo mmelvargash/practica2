@@ -1,0 +1,95 @@
+
+.imgTabla {
+
+    margin: 0px 0px 0px 0px;
+    float: inherit;
+    padding: 0px 0px 0px 0px;
+    border: 1px solid #ddd;
+    height: 65px;
+    width: 80px;
+}
+
+
+/* FORMATEAR TABLA PLANA*/
+
+.plano table {
+    border-collapse: collapse;
+    align-self: center;
+}
+
+.plano table,
+.plano td,
+.plano th {
+    border: 2px solid black;
+}
+
+/* FIN == > FORMATEAR TABLA PLANA*/
+
+/*FORMATEAR TABLA PLANA*/
+
+.extra {
+    width: 50%;
+    border-collapse: collapse;
+    text-align: left;
+    color: #606060;
+}
+
+.extra caption {
+    height: 35px;
+    text-align: center;
+    vertical-align: central;
+    padding: 7px;
+    border-bottom: 1px solid #606060;
+    background-color: #E5017D;
+    font: 120% helvetica, arial, verdana, sans;
+    color: white;
+}
+
+.extra td {
+    vertical-align: middle;
+    padding: 0.5em;
+}
+
+.extra thead tr td {
+    background-color: White;
+    vertical-align: middle;
+    padding: 0.6em;
+    font-size: 0.8em;
+}
+
+.extra thead tr th,
+.extra tbody tr.separator {
+    padding: 0.5em;
+    background-color: #E5017D;
+    color: white;
+    background: -webkit-gradient(linear, left top, left bottom, from(#909090), to(#ababab));
+    background: -moz-linear-gradient(top, #909090, #ababab);
+
+}
+
+.extra tbody tr:nth-child(odd) {
+    background-color: white;
+}
+
+.extra tbody tr:nth-child(even) {
+    background-color: #53C7FD;
+}
+
+.extra tbody tr:last-child {
+    border-bottom: solid 1px #404040;
+}
+
+.extra tbody tr:hover {
+    cursor: pointer;
+    background-color: #80E804;
+    color: white;
+    background: -webkit-gradient(linear, left top, left bottom, from(#909090), to(#ababab));
+    background: -moz-linear-gradient(top, #909090, #ababab);
+}
+
+.extra tfoot {
+    text-align: center;
+    color: #303030;
+    text-shadow: 0 1px 1px rgba(255, 255, 255, 0.3);
+}
+
